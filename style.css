@@ -37,4 +37,8 @@ nav {
 
 header {
     background-color: #1abc9c;
+    padding-top: 100px;
+}
+header img {
+    width: 240px;
 }
