@@ -10,7 +10,6 @@ nav {
     background-color: #2c3e50;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: flex;
 }
 
 #main-nav a {
@@ -118,4 +117,19 @@ header > span {
      padding-top: 10px;
      padding-bottom: 10px;
    }
+
+   #main-nav .navbar-header a {
+       font-size: 20px;
+   }
  }
+
+ @media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    nav {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+  }
